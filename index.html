@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sticky Fingers Typing Game</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- Add other Meta tags for SEO -->
+        <meta name="author" content="Emmanuel Festus Obasesam">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="keywords" content="Games, Programmers games, typing, programmers, typing game">
+	<meta name="description" content="A great tool for programmers and non-programmer to test typing speed & have great fun!">
+        
+        <link rel="icon" href="../img/favicon.png" type="image/x-icon"/>
+        <link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/all.css">
+    </head>
+    <body>
+        <!--Navigation Bar-->
+        
+        <!--/Ends Navigation Bar-->
+        <!--main stuff-->
+        <div class="container-fluid card card-body bg-success text-white" style="">
+            <center class="lead">
+                Stinky Fingers <i class="fa fa-keyboard"></i>
+            </center>
+        </div>
+        <br><br>
+        <section class="row">
+            <div class="col-md-6 mx-auto">
+                <center>
+                    <p class="lead">Type the word given in <span class="text-success" id="seconds">5</span> Seconds: </p>
+                </center>
+                <center>
+                    <h2 class="display-2 mb-5" id="current-word">hello</h2>
+                </center>
+                <input type="text" class="form-control form-control-lg" placeholder="Start typing...."
+                       id="word-input" autofocus>
+                <center>
+                <h4 class="mt-3 text-danger" id="message"></h4>
+                </center>
+                
+                <!--Time & Score Columns-->
+                <div class="row mt-5">
+                    <div class="col-md-6">
+                        <h3>Time Left:
+                            <span id="time">0</span>
+                        </h3>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Score:
+                            <span id="score">0</span>
+                        </h3>
+                    </div>
+                </div>
+                <center>
+                    <p id="high-score">Your high score is:</p>
+                </center>
+                <!--Instructions-->
+                <div class="row mt-5">
+                    <div class="col-md-12">
+                        <div class="card card-body bg-secondary text-white">
+                            <h5>Instructions:</h5>
+                            <p>Type each word in the given
+                            amount of seconds to score. To play again, just type the current
+                            word. Your score will reset</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
