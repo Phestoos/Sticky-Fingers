@@ -1,5 +1,5 @@
 # Sticky-Fingers
-Typing/Speed testing game
+My first Java Script Typing/Speed game
 
 I used javascript for the functionalities,
 Bootstrap
